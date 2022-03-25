@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.alex.sm4demo.mapper.ExcelMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.alex.sm4demo.pojo.ExcelPerson">
+        <id column="IDNUM" property="idnum" />
+        <result column="uname" property="uname" />
+        <result column="addr" property="addr" />
+        <result column="age" property="age" />
+        <result column="sex" property="sex" />
+        <result column="idcard" property="idcard" />
+        <result column="createtime" property="createtime" />
+        <result column="updatatime" property="updatatime" />
+        <result column="showtext" property="showtext" />
+        <result column="phone" property="phone" />
+        <result column="work_addr" property="workAddr" />
+    </resultMap>
+
+</mapper>
